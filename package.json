@@ -1,0 +1,39 @@
+{
+  "name": "canadian-highlander",
+  "version": "0.0.1",
+  "description": "CanadianHighlander.com",
+  "private": "true",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --config webpack.config.js --watch",
+    "build": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/banada/canadian-highlander.git"
+  },
+  "author": "Nathaniel Chen",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/banada/canadian-highlander/issues"
+  },
+  "homepage": "https://github.com/banada/canadian-highlander#readme",
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/plugin-proposal-class-properties": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.4",
+    "css-loader": "^1.0.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2"
+  },
+  "dependencies": {
+    "grommet": "^2.2.1",
+    "grommet-icons": "^4.1.0",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "styled-components": "^4.1.3"
+  }
+}

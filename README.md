@@ -1,2 +1,2 @@
-# canadian-highlander
-CanadianHighlander.com
+# CanadianHighlander.com
+Canadian Highlander News, Events, Decklists, and Gameplay
