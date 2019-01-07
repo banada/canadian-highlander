@@ -2,13 +2,13 @@ const path = require('path');
 
 module.exports = {
     entry: {
-        app: ['./src/App.js']
+        app: ['./src/client/App.js']
     },
     mode: 'development',
     devtool: 'source-map',
     output: {
         filename: '[name].bundle.js',
-        path: path.resolve(__dirname, 'src/dist')
+        path: path.resolve(__dirname, 'src/client/dist')
     },
     module: {
         rules: [
