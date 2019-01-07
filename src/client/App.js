@@ -93,7 +93,7 @@ function SubscribeBar() {
                 margin="medium"
                 color="white"
             >
-                Join the community
+                Join our new community
             </Heading>
             <Text>
                 Get an email when we hold an event or post a new deck.
